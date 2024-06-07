@@ -1,0 +1,3 @@
+#ifndef _LINUX_STATE_SECCOMP_H
+#define _LINUX_STATE_SECCOMP_H
+#endif

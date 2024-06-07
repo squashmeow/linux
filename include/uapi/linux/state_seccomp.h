@@ -1,0 +1,3 @@
+#ifndef _UAPI_LINUX_STATE_SECCOMP_H
+#define _UAPI_LINUX_STATE_SECCOMP_H
+#endif
