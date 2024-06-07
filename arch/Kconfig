@@ -529,6 +529,12 @@ config SECCOMP_CACHE_DEBUG
 
 	  If unsure, say N.
 
+config STATE_SECCOMP
+  def_bool y
+  prompt "Enable a state machine based system call filter"
+  help
+    This is a EXPERIMENTAL feature that developed to explore a more fine-grained and strict system call filter.
+
 config HAVE_ARCH_STACKLEAK
 	bool
 	help
